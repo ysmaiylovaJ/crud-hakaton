@@ -1,0 +1,152 @@
+html {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+body {
+  background-image: url("https://img2.akspic.ru/crops/8/1/7/1/7/171718/171718-stolpy_tvoreniya-kosmicheskij_teleskop_habbl-teleskop-evropejskaya_yuzhnaya_observatoriya-astronomiya-1920x1080.jpg");
+  margin: 0;
+  background-repeat: repeat;
+  background-size: cover;
+}
+.header {
+  background-color: black;
+  display: flex;
+  margin-left: 5%;
+  border-radius: 15px;
+  width: 90%;
+  height: 10vh;
+  z-index: 1;
+}
+.navbar {
+  list-style-type: none;
+}
+.navbar-logo {
+  width: 4rem;
+  margin-left: 6rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+  margin-left: 50px;
+}
+
+.navbar a:hover {
+  transition: 0.2s;
+  color: rgb(79, 114, 176);
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 3%;
+}
+
+.filtered-btns {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  margin-top: 4%;
+}
+
+.cont-for-text {
+  background-color: rgb(102, 111, 159);
+  width: 80%;
+  opacity: 0.8;
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  border-radius: 15px;
+  height: 80vh;
+  color: white;
+  font-size: large;
+}
+.cont-for-text2 {
+  background-color: rgb(115, 77, 122);
+  width: 80%;
+  opacity: 0.8;
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  border-radius: 15px;
+  height: 80vh;
+  color: white;
+  font-size: large;
+}
+
+.cont-for-text3 {
+  background-color: rgb(192, 168, 125);
+  width: 80%;
+  opacity: 0.8;
+  text-align: center;
+  margin-top: 7%;
+  margin-left: 10%;
+  border-radius: 15px;
+  height: 80vh;
+  color: white;
+  font-size: large;
+}
+
+.btn:hover,
+.btn:active {
+  background: #5940a3;
+  border-color: #5940a3;
+  border: 1px solid white;
+}
+.current_page {
+  color: white;
+  font-size: 25px;
+}
+.container-for-pagination {
+  margin-top: 35%;
+  margin-left: 43%;
+}
+.btn--passive {
+  color: #00329e;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.btn--passive:hover,
+.btn--passive:active {
+  background: #aec6f8;
+}
+.btn--danger {
+  background: #5940a3;
+  color: white;
+  border-color: #5940a3;
+}
+.btn--danger:hover,
+.btn--danger:active {
+  background: #5940a3;
+  border-color: #5940a3;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  border: 1px solid #2f5097;
+  background: #364f84;
+  color: white;
+  border-radius: 6px;
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.26);
+  cursor: pointer;
+  margin: 0 0.5rem;
+}
+
+.container-for-pagination-panel {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+#search-input {
+  margin-left: 15%;
+  margin-top: 2%;
+  height: 5vh;
+}
+
+footer {
+  margin-top: 10%;
+}
